@@ -1,15 +1,13 @@
 import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+
+import Layout from '../components/layout';
 
 const Index = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Home</h1>
       <p>I'm Safdar, a fron-end developer.</p>
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
