@@ -1,16 +1,17 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Header from './header';
 import Footer from './footer';
 import '../styles/index.scss';
+import styles from './layout.module.scss';
 
 const Layout = ({ children }) => {
   return (
-    <Fragment>
+    <div className={styles.container}>
       <Header />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 
