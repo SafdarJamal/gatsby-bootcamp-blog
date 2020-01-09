@@ -1,14 +1,25 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: 'Full-Stack Bootcamp;',
     author: 'Safdar Jamal',
   },
   plugins: [
-    `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-contentful',
       options: {
-        name: `src`,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
         path: `${__dirname}/src/`,
       },
     },
