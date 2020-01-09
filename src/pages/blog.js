@@ -9,11 +9,6 @@ const Blog = () => {
       allMarkdownRemark {
         edges {
           node {
-            html
-            headings {
-              depth
-              value
-            }
             frontmatter {
               title
               date
