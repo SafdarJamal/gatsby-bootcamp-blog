@@ -17,7 +17,7 @@ export const query = graphql`
   }
 `;
 
-const Blog = props => {
+const Blog = ({ data }) => {
   const options = {
     renderNode: {
       'embedded-asset-block': node => {
@@ -30,13 +30,10 @@ const Blog = props => {
 
   return (
     <Layout>
-      <Head title={props.data.contentfulBlogPost.title} />
-      <h1>{props.data.contentfulBlogPost.title}</h1>
-      <p>{props.data.contentfulBlogPost.date}</p>
-      {documentToReactComponents(
-        props.data.contentfulBlogPost.body.json,
-        options
-      )}
+      <Head title={data.contentfulBlogPost.title} />
+      <h1>{data.contentfulBlogPost.title}</h1>
+      <p>{data.contentfulBlogPost.date}</p>
+      {documentToReactComponents(data.contentfulBlogPost.body.json, options)}
     </Layout>
   );
 };
