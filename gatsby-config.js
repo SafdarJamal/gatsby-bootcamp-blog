@@ -8,6 +8,7 @@ module.exports = {
     author: 'Safdar Jamal',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
