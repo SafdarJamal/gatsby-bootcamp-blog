@@ -17,7 +17,7 @@ export const query = graphql`
   }
 `;
 
-const Blog = ({ data }) => {
+const BlogPost = ({ data }) => {
   const options = {
     renderNode: {
       'embedded-asset-block': node => {
@@ -38,4 +38,4 @@ const Blog = ({ data }) => {
   );
 };
 
-export default Blog;
+export default BlogPost;
