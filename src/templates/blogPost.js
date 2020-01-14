@@ -32,7 +32,7 @@ const BlogPost = ({ data }) => {
     <Layout>
       <Head title={data.contentfulBlogPost.title} />
       <h1>{data.contentfulBlogPost.title}</h1>
-      <p>{data.contentfulBlogPost.date}</p>
+      <p>Published on {data.contentfulBlogPost.date}</p>
       {documentToReactComponents(data.contentfulBlogPost.body.json, options)}
     </Layout>
   );
