@@ -11,8 +11,8 @@ const Blog = () => {
       allContentfulBlogPost(sort: { fields: date, order: DESC }) {
         edges {
           node {
-            title
             slug
+            title
             date(formatString: "MMMM Do, YYYY")
           }
         }
@@ -28,7 +28,7 @@ const Blog = () => {
         {data.allContentfulBlogPost.edges.map((edge, i) => {
           return (
             <li className={styles.post} key={i}>
-              <Link to={`/blog/${edge.node.slug}`}>
+              <Link to={`/blog${edge.node.slug}`}>
                 <h2>{edge.node.title}</h2>
                 <p>{edge.node.date}</p>
               </Link>
