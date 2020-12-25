@@ -10,6 +10,22 @@
 
 Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
+## Features
+
+- A simple landing page with blog functionality built with Contentful CMS
+- Editable Pages: Landing, About, Blog and Contact page
+- Create Blog posts from Contentful CMS
+- Includes React Helmet to allow editing site meta tags
+- Uses Sass for styling
+- Minimal responsive design
+- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+  Separate components for everything
+- Perfect score on Lighthouse for SEO, Accessibility and - Performance
+
+## Prerequisites
+
+- [Gatsby CLI](https://www.gatsbyjs.com/docs/tutorial/part-zero/#using-the-gatsby-cli)
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
