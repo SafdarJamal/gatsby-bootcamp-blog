@@ -20,7 +20,7 @@ Kick off your project with this blog boilerplate. This starter ships with the ma
 - Minimal responsive design
 - Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
   Separate components for everything
-- Perfect score on Lighthouse for SEO, Accessibility and - Performance
+- Perfect score on Lighthouse for SEO, Accessibility, and Performance
 
 ## Prerequisites
 
@@ -109,3 +109,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SafdarJamal/gatsby-bootcamp-blog)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/SafdarJamal/gatsby-bootcamp-blog)
+
+## Acknowledgment
+
+I built this project while following [this Gatsby tutorial](https://www.youtube.com/watch?v=8t0vNu2fCCM).
