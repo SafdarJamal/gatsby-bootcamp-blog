@@ -21,7 +21,7 @@ const Footer = () => {
         <a href="https://safdarjamal.github.io">
           {data.site.siteMetadata.author}
         </a>{' '}
-        © 2020
+        © 2020-2022
       </p>
     </footer>
   );
