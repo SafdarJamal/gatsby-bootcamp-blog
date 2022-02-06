@@ -113,3 +113,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## Acknowledgment
 
 I built this project while following [this Gatsby tutorial](https://www.youtube.com/watch?v=8t0vNu2fCCM).
+
+## Credits
+
+Gatsby Bootcamp Blog is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
